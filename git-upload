@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git remote add origin https://github.com/andynation/DMI.git
+git config --global user.email anddddreyy@gmail.com
+git add .
+git commit -m "20171018_12_00"
+git push  origin master
+

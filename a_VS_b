@@ -1,0 +1,8 @@
+#1/bin/bash
+echo "Cienijamais lietotaaj, luudzu, ievadi pirmo skaitli"
+read a
+echo "Ceinijamais lietotaj, luudzu, ievadi otro skaitli"
+read b
+c=`expr $a + $b`
+echo "$a + $b = "$c
+
